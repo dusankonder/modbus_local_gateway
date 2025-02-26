@@ -1,1 +1,20 @@
-
+device:
+  manufacturer: LG
+  model: AC
+  max_register_read: 5
+  on_off:
+    title: Ground Floor Operate On/Off
+    address: 17
+    control: switch
+    icon: mdi:power
+    switch:
+      "off": 0
+      "on": 1
+  on_off:
+    title: 1st Floor Operate On/Off
+    address: 33
+    control: switch
+    icon: mdi:power
+    switch:
+      "off": 0
+      "on": 1
